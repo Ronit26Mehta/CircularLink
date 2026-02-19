@@ -1,0 +1,501 @@
+/*
+ * CircuLink Terminal — Industrial Earth & Tech color scheme
+ * =========================================================
+ *
+ * Palette:
+ *   --bg-deep       #1A1B26   Deep Charcoal (primary background)
+ *   --bg-panel      #24253A   Slightly lighter panel background
+ *   --bg-elevated   #2E3052   Elevated surface (sidebar active, cards)
+ *   --c-seller      #E06C75   Muted Oxide Red  (sell / byproduct / raw state)
+ *   --c-buyer       #98C379   Chlorophyll Green (buy / reuse / growth)
+ *   --c-ai          #61AFEF   Steel Blue (AI / Gemini processing)
+ *   --c-hazard      #D19A66   Amber (hazard / restricted / warning)
+ *   --c-text        #ABB2BF   Soft white primary text
+ *   --c-muted       #5C6370   Muted comment grey
+ *   --c-border      #3E4451   Border / divider colour
+ *   --c-accent      #C678DD   Purple accent (highlights / hotkeys)
+ */
+
+/* ─── App root ─────────────────────────────────────────────────────────── */
+
+Screen {
+    background: #1A1B26;
+    color: #ABB2BF;
+    overflow: auto;
+}
+
+/* ─── Global Header ────────────────────────────────────────────────────── */
+
+Header {
+    background: #24253A;
+    color: #ABB2BF;
+    dock: top;
+    height: 1;
+    padding: 0 1;
+}
+
+/* ─── Global Footer ────────────────────────────────────────────────────── */
+
+Footer {
+    background: #24253A;
+    color: #5C6370;
+    dock: bottom;
+    height: 1;
+}
+
+/* ─── Sidebar Navigation ───────────────────────────────────────────────── */
+
+#sidebar {
+    dock: left;
+    width: 22;
+    background: #24253A;
+    border-right: solid #3E4451;
+    padding: 1 0;
+}
+
+.nav-item {
+    height: 3;
+    padding: 0 2;
+    color: #5C6370;
+    background: #24253A;
+}
+
+.nav-item:hover {
+    background: #2E3052;
+    color: #ABB2BF;
+}
+
+.nav-item.active {
+    background: #2E3052;
+    color: #61AFEF;
+    border-left: solid #61AFEF;
+}
+
+.nav-hotkey {
+    color: #C678DD;
+}
+
+.nav-logo {
+    height: 5;
+    padding: 1 2;
+    color: #61AFEF;
+    text-style: bold;
+    content-align: left middle;
+}
+
+.nav-divider {
+    height: 1;
+    color: #3E4451;
+    border-top: solid #3E4451;
+    margin: 0 1;
+}
+
+.nav-company-badge {
+    height: 3;
+    padding: 0 2;
+    color: #98C379;
+    text-style: italic;
+}
+
+/* ─── Main content container ───────────────────────────────────────────── */
+
+#content-area {
+    margin: 0 0 0 0;
+    background: #1A1B26;
+    overflow: auto;
+}
+
+/* ─── Section headers ──────────────────────────────────────────────────── */
+
+.section-title {
+    background: #24253A;
+    color: #61AFEF;
+    text-style: bold;
+    height: 3;
+    padding: 0 2;
+    content-align: left middle;
+    border-bottom: solid #3E4451;
+}
+
+.section-subtitle {
+    color: #5C6370;
+    height: 2;
+    padding: 0 2;
+    content-align: left middle;
+}
+
+/* ─── Stat cards (Dashboard) ───────────────────────────────────────────── */
+
+#stats-grid {
+    layout: grid;
+    grid-size: 3;
+    grid-gutter: 1 2;
+    height: 8;
+    margin: 1 2;
+}
+
+.stat-card {
+    background: #24253A;
+    border: solid #3E4451;
+    padding: 1 2;
+    height: 6;
+}
+
+.stat-card.seller {
+    border: solid #E06C75;
+}
+
+.stat-card.buyer {
+    border: solid #98C379;
+}
+
+.stat-card.ai {
+    border: solid #61AFEF;
+}
+
+.stat-value {
+    text-style: bold;
+    color: #ABB2BF;
+    height: 2;
+    content-align: left middle;
+}
+
+.stat-label {
+    color: #5C6370;
+    height: 1;
+    content-align: left middle;
+}
+
+/* ─── DataTable ────────────────────────────────────────────────────────── */
+
+DataTable {
+    background: #1A1B26;
+    color: #ABB2BF;
+    border: solid #3E4451;
+    margin: 0 2 1 2;
+    height: 100%;
+    overflow: auto scroll;
+}
+
+DataTable > .datatable--header {
+    background: #24253A;
+    color: #61AFEF;
+    text-style: bold;
+}
+
+DataTable > .datatable--cursor {
+    background: #2E3052;
+    color: #ABB2BF;
+}
+
+DataTable > .datatable--even-row {
+    background: #1A1B26;
+}
+
+DataTable > .datatable--odd-row {
+    background: #1E1F2E;
+}
+
+/* ─── Score badges ─────────────────────────────────────────────────────── */
+
+.score-high {
+    color: #98C379;
+    text-style: bold;
+}
+
+.score-medium {
+    color: #D19A66;
+}
+
+.score-low {
+    color: #E06C75;
+}
+
+/* ─── Status pills ─────────────────────────────────────────────────────── */
+
+.status-approved {
+    color: #98C379;
+}
+
+.status-blocked {
+    color: #E06C75;
+}
+
+.status-pending {
+    color: #D19A66;
+}
+
+/* ─── Buttons ──────────────────────────────────────────────────────────── */
+
+Button {
+    background: #2E3052;
+    color: #ABB2BF;
+    border: solid #3E4451;
+    height: 3;
+    margin: 0 1;
+}
+
+Button:hover {
+    background: #3E4067;
+    color: #ABB2BF;
+    border: solid #61AFEF;
+}
+
+Button:focus {
+    background: #3E4067;
+    border: solid #61AFEF;
+}
+
+Button.btn-buy {
+    background: #1E2E1E;
+    color: #98C379;
+    border: solid #98C379;
+}
+
+Button.btn-buy:hover {
+    background: #2A3E2A;
+    color: #98C379;
+}
+
+Button.btn-sell {
+    background: #2E1E20;
+    color: #E06C75;
+    border: solid #E06C75;
+}
+
+Button.btn-sell:hover {
+    background: #3E2A2C;
+    color: #E06C75;
+}
+
+Button.btn-ai {
+    background: #1E2A3E;
+    color: #61AFEF;
+    border: solid #61AFEF;
+}
+
+Button.btn-ai:hover {
+    background: #2A3A50;
+}
+
+Button.btn-danger {
+    background: #2E1E20;
+    color: #E06C75;
+    border: solid #E06C75;
+}
+
+/* ─── Form / Input ─────────────────────────────────────────────────────── */
+
+Input {
+    background: #24253A;
+    color: #ABB2BF;
+    border: solid #3E4451;
+    height: 3;
+}
+
+Input:focus {
+    border: solid #61AFEF;
+}
+
+Input.-invalid {
+    border: solid #E06C75;
+}
+
+Label {
+    color: #ABB2BF;
+    height: 1;
+    margin-bottom: 0;
+}
+
+.label-required {
+    color: #E06C75;
+}
+
+.label-hint {
+    color: #5C6370;
+    height: 1;
+    margin: 0 0 1 0;
+}
+
+/* ─── Log / RichLog ────────────────────────────────────────────────────── */
+
+RichLog {
+    background: #1A1B26;
+    color: #ABB2BF;
+    border: solid #3E4451;
+    margin: 0 2 1 2;
+    height: 12;
+    overflow: auto scroll;
+}
+
+/* ─── Loading / spinner ────────────────────────────────────────────────── */
+
+LoadingIndicator {
+    background: #1A1B26;
+    color: #61AFEF;
+}
+
+/* ─── Welcome / login screen ───────────────────────────────────────────── */
+
+#welcome-screen {
+    background: #1A1B26;
+    align: center middle;
+}
+
+#welcome-panel {
+    background: #24253A;
+    border: double #61AFEF;
+    width: 70;
+    height: auto;
+    padding: 2 4;
+    overflow: auto scroll;
+}
+
+.welcome-logo {
+    color: #61AFEF;
+    text-style: bold;
+    height: 5;
+    content-align: center middle;
+}
+
+.welcome-subtitle {
+    color: #5C6370;
+    height: 2;
+    content-align: center middle;
+}
+
+#welcome-tabs {
+    height: 3;
+    margin: 1 0;
+}
+
+/* ─── Modals / dialogs ─────────────────────────────────────────────────── */
+
+ModalScreen {
+    background: rgba(0, 0, 0, 0.7);
+    align: center middle;
+}
+
+#modal-panel {
+    background: #24253A;
+    border: solid #3E4451;
+    width: 80;
+    height: auto;
+    padding: 2 3;
+    max-height: 40;
+    overflow: auto scroll;
+}
+
+#modal-title {
+    color: #61AFEF;
+    text-style: bold;
+    height: 2;
+    margin-bottom: 1;
+    content-align: left middle;
+}
+
+/* ─── Hazard warning banner ────────────────────────────────────────────── */
+
+.hazard-banner {
+    background: #2E2010;
+    color: #D19A66;
+    border: solid #D19A66;
+    height: 4;
+    padding: 0 2;
+    content-align: left middle;
+    margin: 1 2;
+}
+
+/* ─── AI processing banner ─────────────────────────────────────────────── */
+
+.ai-banner {
+    background: #1A2535;
+    color: #61AFEF;
+    border: solid #61AFEF;
+    height: 3;
+    padding: 0 2;
+    content-align: left middle;
+    margin: 0 2;
+}
+
+/* ─── Activity log (Dashboard) ─────────────────────────────────────────── */
+
+#activity-log {
+    background: #1A1B26;
+    border: solid #3E4451;
+    margin: 0 2 1 2;
+    height: 10;
+    overflow-y: auto;
+}
+
+.log-entry {
+    color: #5C6370;
+    height: 1;
+    padding: 0 1;
+}
+
+.log-entry.log-success {
+    color: #98C379;
+}
+
+.log-entry.log-warn {
+    color: #D19A66;
+}
+
+.log-entry.log-error {
+    color: #E06C75;
+}
+
+.log-entry.log-ai {
+    color: #61AFEF;
+}
+
+/* ─── Scrollbar theme ───────────────────────────────────────────────────── */
+
+* {
+    scrollbar-size: 1 1;
+    scrollbar-color: #3E4451;
+    scrollbar-color-hover: #61AFEF;
+    scrollbar-color-active: #C678DD;
+    scrollbar-background: #1A1B26;
+    scrollbar-background-hover: #24253A;
+    scrollbar-background-active: #24253A;
+}
+
+/* ─── Container scrolling ───────────────────────────────────────────────── */
+
+Container {
+    overflow: auto;
+}
+
+Vertical {
+    overflow-y: auto;
+}
+
+Horizontal {
+    overflow-x: auto;
+}
+
+ContentSwitcher {
+    overflow: auto;
+}
+
+TabbedContent {
+    overflow: auto;
+}
+
+TabPane {
+    overflow: auto;
+}
+
+TextArea {
+    overflow: auto scroll;
+}
+
+VerticalScroll {
+    overflow-y: auto;
+}
+
+ScrollableContainer {
+    overflow: auto scroll;
+}
