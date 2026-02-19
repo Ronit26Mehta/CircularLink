@@ -1,0 +1,64 @@
+common_name,cas_number,hazard_class,un_number,notes
+Asbestos,1332-21-4,Carcinogen/CMR,2212,All forms including chrysotile amosite and crocidolite
+Benzene,71-43-2,Flammable/Carcinogen,1114,Group 1 IARC carcinogen; reproductive hazard
+Formaldehyde,50-00-0,Toxic/Carcinogen,1198,Embalming fixative; IARC Group 1 carcinogen
+Arsenic trioxide,1327-53-3,Acute Toxic/Carcinogen,1561,Highly toxic; rat poison and wood preservative
+Lead,7439-92-1,CMR/Toxic,3077,Battery waste; paint pigment; reproductive toxin
+Mercury,7439-97-6,Toxic/Enviro Hazard,2809,Thermometer waste; dental amalgam; bioaccumulative
+Cadmium,7440-43-9,Carcinogen/CMR,2570,Battery waste; pigment; renal toxin
+Chromium VI (hexavalent),18540-29-9,Carcinogen/CMR,1755,Plating waste; anti-corrosion pigment
+Polychlorinated Biphenyls,1336-36-3,Enviro Hazard/CMR,2315,PCBs; transformer oil; banned globally
+Dioxins (PCDD),1746-01-6,Carcinogen,2811,By-product of incineration; POP under Stockholm Convention
+Cyanide (sodium),143-33-9,Acute Toxic,1689,Metal extraction; electroplating waste
+Cyanide (potassium),151-50-8,Acute Toxic,1680,Metal extraction; photographic waste
+Hydrogen cyanide,74-90-8,Acute Toxic/Flammable,1051,Gas; fumigation; chemical synthesis
+Chlorine gas,7782-50-5,Acute Toxic/Corrosive,1017,Disinfection by-product; bleaching waste
+Ammonia,7664-41-7,Toxic/Corrosive,1005,Fertiliser waste; refrigerant; corrosive
+Sulfuric acid (fuming),8014-95-7,Corrosive/Toxic,1831,Oleum; battery acid waste; highly reactive
+Hydrofluoric acid,7664-39-3,Acute Toxic/Corrosive,1790,Glass etching; semiconductor waste; severe burns
+Nitric acid (fuming),7697-37-2,Oxidiser/Corrosive,2032,Metal etching; explosive synthesis intermediate
+Phosphine,7803-51-2,Acute Toxic/Flammable,2199,Fumigant; semiconductor dopant gas
+Phosgene,75-44-5,Acute Toxic,1076,Polymer synthesis; chemical warfare precursor
+Styrene oxide,96-09-3,Carcinogen/Mutagenic,2078,Epoxide intermediate; carcinogenic
+Vinyl chloride,75-01-4,Carcinogen/Flammable,1086,PVC monomer; Group 1 IARC carcinogen
+Ethylene oxide,75-21-8,Carcinogen/Flammable,1040,Sterilisation gas; plastics intermediate
+1,2-Dichloroethane,107-06-2,Carcinogen/Toxic,1184,PVC solvent; Group 2A IARC carcinogen
+Carbon tetrachloride,56-23-5,Toxic/Enviro Hazard,1846,Solvent waste; ozone-depleting substance
+Trichloroethylene,79-01-6,Carcinogen/Toxic,1710,Degreaser waste; Group 1 IARC carcinogen
+Perchloroethylene,127-18-4,Probable Carcinogen,1897,Dry-cleaning solvent; Group 2A IARC
+Chloroform,67-66-3,Probable Carcinogen,1888,Solvent; anesthetic intermediate; Group 2A IARC
+Polycyclic aromatic hydrocarbons,130498-29-2,Carcinogen,3077,PAH mixture; coal tar by-product; coke oven emissions
+Benzo[a]pyrene,50-32-8,Carcinogen,3077,Combustion by-product; Group 1 IARC carcinogen
+Acrylamide,79-06-1,Carcinogen/Neurotoxic,2074,Polymer synthesis; wastewater treatment by-product
+Aniline,62-53-3,Acute Toxic/Carcinogen,1547,Dye intermediate; rubber chemical; Group 1 IARC (bladder)
+Nitrobenzene,98-95-3,Toxic/Enviro Hazard,1662,Aniline precursor; solvent waste
+Dimethyl sulfate,77-78-1,Carcinogen/Acute Toxic,1595,Methylation agent; carcinogenic
+Diethyl sulfate,64-67-5,Carcinogen,1594,Ethylation agent; probable carcinogen
+Beryllium,7440-41-7,Carcinogen/CMR,1566,Aerospace waste; ceramic additive; lung carcinogen
+Nickel compounds,7440-02-0,Carcinogen/CMR,3077,Electroplating waste; catalysts; Group 1 IARC
+Cobalt compounds,7440-48-4,Carcinogen/CMR,3077,Battery waste; alloy hardener; lung carcinogen
+Chromate (potassium),7789-00-6,Carcinogen/CMR,3077,Chrome pigment; oxidiser; Group 1 IARC
+Dichromate (sodium),10588-01-9,Carcinogen/CMR,3087,Chrome tanning; oxidiser; reproductive toxin
+Bis(2-chloroethyl) sulfide,505-60-2,Acute Toxic/CMR,2810,Mustard gas; chemical warfare agent
+2-Naphthylamine,91-59-8,Carcinogen,1650,Dye intermediate; Group 1 IARC (bladder cancer)
+Benzidine,92-87-5,Carcinogen,1885,Dye intermediate; Group 1 IARC carcinogen
+4-Aminobiphenyl,92-67-1,Carcinogen,2811,Rubber antioxidant precursor; Group 1 IARC
+Styrene,100-42-5,Neurotoxic/Possible Carcinogen,2055,Polymer monomer; Group 2A IARC
+Acrylonitrile,107-13-1,Carcinogen/Flammable,1093,Fibre and rubber monomer; Group 2B IARC
+Epichlorohydrin,106-89-8,Carcinogen/Acute Toxic,2023,Epoxy resin precursor; Group 2A IARC
+Dimethylformamide,68-12-2,Reproductive Toxic/CMR,2265,Solvent; peptide synthesis; reproductive toxin
+N-Methyl-2-pyrrolidone,872-50-4,Reproductive Toxic,1993,Semiconductor solvent; CMR substance
+Ethylene glycol monoethyl ether,110-80-5,Reproductive Toxic,1171,Solvent; CMR; glycol ether
+2-Methoxyethanol,109-86-4,Reproductive Toxic,1188,Solvent; CMR glycol ether; reproductive toxin
+Diisocyanates (MDI),101-68-8,Sensitizer/Toxic,2489,Polyurethane foam precursor; respiratory sensitizer
+Toluene diisocyanate (TDI),584-84-9,Carcinogen/Sensitizer,2078,Foam precursor; Group 2A IARC; respiratory sensitizer
+Isocyanates (general),26447-40-5,Sensitizer/Toxic,,Respiratory sensitizer class
+Organophosphate pesticides,56-38-2,Acute Toxic/Enviro,2783,Parathion class; neuro-toxic; banned in EU/India
+Organochlorine pesticides,50-29-3,Carcinogen/POP,2761,DDT class; Stockholm Convention POP; bioaccumulative
+Cyamelide,108-80-5,Toxic,,Melamine analogue
+Radioactive waste,N/A,Radioactive,,IAEA Class D waste; requires special handling and permit
+Waste oils (PCB contaminated),N/A,Enviro Hazard/Toxic,,Only non-PCB waste oils permitted; verify COC
+Spent pickle liquor,N/A,Corrosive/Toxic,,Hydrochloric or sulphuric acid; heavy metal contaminated
+E-waste (hazardous),N/A,Toxic/Enviro Hazard,3077,Printed circuit boards with lead/cadmium/mercury/beryllium
+Asbestos-containing material,N/A,Carcinogen,,Brake pads; insulation; ceiling tiles; demolition waste
+Clinical/medical waste,N/A,Biohazard,,Sharps infectious waste; requires bio-treatment
