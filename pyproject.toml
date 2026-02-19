@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "circularlink"
+version = "1.0.0"
+description = "AI-Driven Marketplace for Industrial Circular Economy — Terminal UI"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Akshay Jha", email = "akshay@circularlink.io" },
+    { name = "Bandhan Sawant", email = "bandhan@circularlink.io" },
+    { name = "Devansh Jollani", email = "devansh@circularlink.io" },
+]
+keywords = ["circular-economy", "AI", "marketplace", "TUI", "Gemini", "NLP"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Manufacturing",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "textual>=0.80.0",
+    "google-generativeai>=0.8.0",
+    "rapidfuzz>=3.9.0",
+    "rich>=13.7.0",
+    "geopy>=2.4.0",
+]
+
+[project.scripts]
+circularlink = "circularlink.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/circularlink/circularlink"
+Documentation = "https://github.com/circularlink/circularlink#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"circularlink" = ["data/*.csv", "*.tcss"]
